@@ -1,1 +1,1 @@
-web: gunicorn coldmail.wsgi
+web: gunicorn project3.wsgi
