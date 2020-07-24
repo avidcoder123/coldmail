@@ -8,7 +8,7 @@ Coldmail is an alternative email service which allows you to choose a custom e-m
 4. Make your own changes.
 5. To test, `cd` into the root directory, run
     `python manage.py runserver 5000`
-and navigate to [127.0.0.1:5000/].
+and navigate to [127.0.0.1:5000](127.0.0.1:5000/).
 # How to deploy a Fork?
 1. If you haven't already, install Heroku CLI.
 2. Coldmail runs on Gunicorn. If you want to use another service, edit `Procfile`.
@@ -19,5 +19,5 @@ and navigate to [127.0.0.1:5000/].
    ` $ heroku ps:scale web=1 --app`
 Where `app` is the name of your heroku app.
 # View the site
-Coldmail is hosted at [coldmail.herokuapp.com/].
+Coldmail is hosted at [coldmail.herokuapp.com](coldmail.herokuapp.com).
 If you notice any bugs, report it on GitHub or email me on coldmail at `umar@photonco.com`.
