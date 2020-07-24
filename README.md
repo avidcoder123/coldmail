@@ -3,8 +3,8 @@ Coldmail is an alternative email service which allows you to choose a custom e-m
 # How to Fork?
 1. Fork this project.
 2. Git Clone.
-3. Install Python and Django if you haven't already.
-    pip3 install Django
+3. Install Python and Django if you haven't already by running in a Bash Console:
+    `$ pip3 install Django`
 4. Make your own changes.
 5. To test, `cd` into the root directory, run
     `python manage.py runserver 5000`
