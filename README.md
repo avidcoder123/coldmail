@@ -7,7 +7,7 @@ Coldmail is an alternative email service which allows you to choose a custom e-m
     pip3 install Django
 4. Make your own changes.
 5. To test, `cd` into the root directory and run
-    python manage.py runserver 5000
+    `python manage.py runserver 5000`
 And navigate to 127.0.0.1:5000.
 # How to deploy a Fork?
 1. If you haven't already, install Heroku CLI.
@@ -16,7 +16,7 @@ And navigate to 127.0.0.1:5000.
 4. Log into Heroku.com, create a project and go to the `Deploy` tab.
 5. Link GitHub account, select your repo and click Deploy.
 6. In a Bash command line, run
-    $ heroku ps:scale web=1 --app
+   ` $ heroku ps:scale web=1 --app`
 Where `app` is the name of your heroku app.
 # View the site
 Coldmail is hosted at coldmail.herokuapp.com
