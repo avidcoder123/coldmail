@@ -19,5 +19,5 @@ and navigate to [127.0.0.1:5000](127.0.0.1:5000/).
    ` $ heroku ps:scale web=1 --app`
 Where `app` is the name of your heroku app.
 # View the site
-Coldmail is hosted at [coldmail.herokuapp.com](coldmail.herokuapp.com).
+Coldmail is hosted at [coldmail.herokuapp.com](http://coldmail.herokuapp.com).
 If you notice any bugs, report it on GitHub or email me on coldmail at `umar@photonco.com`.
